@@ -56,7 +56,7 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 // ================== typed js====================//
 const typed = new Typed(".multiple-text", {
-  strings: ["Expert Generalist", "Trader Forex", "Fullstack Developer"],
+  strings: ["Expert Generalist", " Forex Trader", "Fullstack Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
@@ -67,11 +67,11 @@ alert("hello bapak adam");
 // alert("welcome fakhri");
 // alert("welcome 1");
 // alert("welcome 2");
-var name = prompt("input name");
-alert("welcome " + name);
-var i = confirm("u sure ?");
-if (i == true) {
-  alert("ok");
-} else {
-  alert("cancel");
-}
+// var name = prompt("input name");
+// alert("welcome " + name);
+// var i = confirm("u sure ?");
+// if (i == true) {
+//   alert("ok");
+// } else {
+//   alert("cancel");
+// }
