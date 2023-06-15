@@ -539,6 +539,11 @@ span {
   .home-img img {
     width: 90vw;
   }
+
+  .about-img .circle-spin {
+    display: none;
+  }
+
   .about-img img {
     width: 90vw;
   }

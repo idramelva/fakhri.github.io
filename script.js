@@ -63,7 +63,7 @@ const typed = new Typed(".multiple-text", {
   loop: true,
 });
 
-alert("hello bapak adam");
+alert("welcome brow");
 // alert("welcome fakhri");
 // alert("welcome 1");
 // alert("welcome 2");
@@ -75,3 +75,13 @@ alert("hello bapak adam");
 // } else {
 //   alert("cancel");
 // }
+var a = 10;
+
+var o = 6;
+for (var i = 1; i <= a; i++) {
+  if (i <= 6) {
+    console.log("angkot no" + i + "beroperasi");
+  } else {
+    console.log("angkot no" + i + "rusak");
+  }
+}
