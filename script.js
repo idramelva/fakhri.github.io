@@ -92,12 +92,7 @@ for (var i = 1; i <= a; i++) {
 
 var name = prompt("masukan nama");
 
-if (
-  name == "rozaan" ||
-  name == "fakhri" ||
-  name == "dinan " ||
-  name == "adam"
-) {
+if (name == "rozaan" || name == "fakhri" || name == "dinan" || name == "adam") {
   alert("selamat datang brow " + name);
 } else {
   alert("mnh saha ajig ?");
