@@ -79,9 +79,26 @@ var a = 10;
 
 var o = 6;
 for (var i = 1; i <= a; i++) {
-  if (i <= 6) {
-    console.log("angkot no" + i + "beroperasi");
+  if (i <= o && i != 5) {
+    console.log("angkot no " + i + " beroperasi");
+  } else if (i == 5 || i == 10 || i == 8) {
+    console.log("angkot no " + i + " lembur");
+  } else if (i > 6) {
+    console.log("angkot no " + i + " rusak");
   } else {
-    console.log("angkot no" + i + "rusak");
+    console.log("angkot no " + i + " rusak");
   }
+}
+
+var name = prompt("masukan nama");
+
+if (
+  name == "rozaan" ||
+  name == "fakhri" ||
+  name == "dinan " ||
+  name == "adam"
+) {
+  alert("selamat datang brow " + name);
+} else {
+  alert("mnh saha ajig ?");
 }
